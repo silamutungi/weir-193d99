@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from 'react'
 import { Link, useNavigate, useLocation } from 'react-router-dom'
 import { supabase, isSupabaseConfigured } from '../lib/supabase'
 import { Button } from './ui/button'
-import { Shield, LogOut, Menu, X } from 'lucide-react'
+import { Shield, LogOut, X } from 'lucide-react'
 
 export default function Navbar() {
   const navigate = useNavigate()
