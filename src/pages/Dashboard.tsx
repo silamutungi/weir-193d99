@@ -3,7 +3,7 @@ import { supabase, isSupabaseConfigured } from '../lib/supabase'
 import { formatCurrency, formatDate } from '../lib/utils'
 import { Badge } from '../components/ui/badge'
 import { Button } from '../components/ui/button'
-import { Shield, TrendingUp, AlertTriangle, CheckCircle, DollarSign, Zap, Eye, XCircle } from 'lucide-react'
+import { Shield, AlertTriangle, CheckCircle, DollarSign, Zap, Eye, XCircle } from 'lucide-react'
 import type { NilMatch, RiskLevel, ActionType } from '../types'
 import Navbar from '../components/Navbar'
 
